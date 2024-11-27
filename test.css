@@ -1,0 +1,14 @@
+#downloadExtension_btn {
+    z-index: 99999999999999999999999;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(lightgrey, white);
+    color: black;
+    border: 1px solid black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 0;
+    font-size: 1em;
+    cursor: pointer;
+}
