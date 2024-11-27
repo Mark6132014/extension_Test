@@ -10,7 +10,7 @@ var a = document.querySelectorAll("a"); /* As e */
 var iframe = document.querySelectorAll("iframe"); /* As f */
 var img = document.querySelectorAll("img"); /* As g */
 var base = document.querySelectorAll("base"); /* As h */
-document.getElementById('downloadExtension_btn').addEventListener('click', async function() {
+document.getElementById("downloadExtension_btn").addEventListener('click', async function() {
     const zip = new JSZip();
     const folder = zip.folder("content");
   for (var aDL = 0; script.length > aDL; aDL++) {
